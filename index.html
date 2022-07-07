@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script defer src="/assets/js/script.js"></script>
+    <title>input devoir</title>
+</head>
+<body>
+    <form>
+        <h1>Add student name</h1>
+        <div>
+            <label for="firstName">first name</label>
+            <input id="firstName" name="firstName" type="text" required>
+        </div>
+        <div>
+            <label for="lastName">last name</label>
+            <input id="lastName" name="lastName" type="text" required>
+        </div>
+        <div class="input">
+            <label for="phoneNumber">Phone</label>
+            <input id="phoneNumber" name="phoneNumber" type="text" required>
+        </div>
+        <div class="input">
+            <label for="email">email</label>
+            <input name="email" id="email" type="email" required>
+        </div>
+        <div>
+            <button class="btn" id="submitBtn">Submit</button>
+            <button class="btn" id="cancelBtn">cancel</button>
+        </div>
+    </form>
+
+    <div id="display"></div>
+</body>
+</html>
